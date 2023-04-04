@@ -8,8 +8,9 @@ const handleRequest = async (
   reflare.push({
     path: '/*',
     upstream: {
-      domain: 'httpbin.org',
-      protocol: 'https',
+      domain: 'r2.heimat.ml',
+      protocol: 'http',
+      port: 3002,
     },
   });
 
